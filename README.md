@@ -3,13 +3,10 @@
 
 <b>Authors</b>: 
 Tyler Harris, Shane Nielson
-
-<b>Purpose</b>: 
+<br><b>Purpose</b>: 
 Get events & attendees counts from a Vibe calendar for a specific date range
-
-<b>Assumptions</b>: attendee teams & groups will be ignored in counts
-
-<b>Execute from Linux</b>:
+<br><b>Assumptions</b>: attendee teams & groups will be ignored in counts
+<br><b>Execute from Linux</b>:
 ```mysql -u<user> -p -t < getCalendarCountsFromVibe.sql > getCalendarCountsFromVibe.txt```
 
 <i>Note: Report output can be found in getCalendarCountsFromVibe.txt</i>
