@@ -1,0 +1,20 @@
+{
+  "name": "Vibe-getCalenderCounts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getCalenderCountsFromVibe.sql",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdharris/Vibe-getCalendarCounts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdharris/Vibe-getCalendarCounts/issues"
+  },
+  "homepage": "https://github.com/tdharris/Vibe-getCalendarCounts#readme",
+  "dependencies": {}
+}
