@@ -8,8 +8,7 @@ Get events & attendees counts from a Vibe calendar for a specific date range
 <br><b>Assumptions</b>: attendee teams & groups will be ignored in counts
 <br><b>Execute from Linux</b>:
 ```mysql -u<user> -p -t < getCalendarCountsFromVibe.sql > getCalendarCountsFromVibe.txt```
-
-<i>Note: Report output can be found in getCalendarCountsFromVibe.txt</i>
+<br><i>Note: Report output can be found in getCalendarCountsFromVibe.txt after running the above command.</i>
 
 Example report:
 - 1st table: Get total count of events
@@ -32,4 +31,12 @@ Example report:
 +-----------+-----------+--------------------+
 | 2016-05-% | 2016-05-% |                  9 |
 +-----------+-----------+--------------------+
+```
+
+Configuring variables can be found at the top of the script:
+```
+-- Note: Only change year and month for startDate and endDate. Day value needs to be % since query uses LIKE.
+SET @lv_input_startDate := '2016-05-%'; 
+SET @lv_input_endDate := '2016-05-%';
+SET @lv_input_calendarPathName := '/Novell Workspaces/Team Workspaces/Services/Global Technical Support/Technical Training Resources/Calendar';
 ```
